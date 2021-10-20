@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  transition: 0.6s;
+}
+body {
+  background-color: #2d2926ff;
+}
+.info {
+  text-align: center;
+  color: #e94b3cff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.mode {
+  margin: 0;
+  text-align: left;
+  position: relative;
+  cursor: pointer;
+  font-size: 15px;
+  height: 60px;
+  width: 80px;
+  background-color: #2d2926ff;
+  color: #e94b3cff;
+  border: none;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.mode:hover {
+  transform: scale(1.5);
+}
+.box {
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cal {
+  background-color: #e94b3cff;
+  padding: 15px;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 75px);
+}
+input {
+  grid-column: span 4;
+  height: 90px;
+  width: 290px;
+  background-color: #2da8d8ff;
+  color: #2d2926ff;
+  border: none;
+  border-radius: 30px;
+  font-size: 50px;
+  text-align: end;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.btn {
+  height: 60px;
+  width: 60px;
+  background-color: #2d2926ff;
+  color: #e94b3cff;
+  border: none;
+  border-radius: 50%;
+  margin: 8px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+.ops {
+  background-color: #2da8d8ff;
+  color: #2d2926ff;
+}
+.equal {
+  width: 120px;
+  border-radius: 40px;
+}
+.detail {
+  text-align: center;
+  color: #e94b3cff;
+  margin-top: 30px;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}
+.light-mode-cal {
+  background-color: #2d2926ff;
+}
+.light-mode-input {
+  background-color: #e94b3cff;
+  color: #2da8d8ff;
+}
+.light-mode-btn {
+  background-color: #2da8d8ff;
+  color: #2d2926ff;
+}
+.light-mode-ops {
+  background-color: #e94b3cff;
+  color: #2d2926ff;
+}
+.light-mode-text {
+  color: #2d2926ff;
+}
